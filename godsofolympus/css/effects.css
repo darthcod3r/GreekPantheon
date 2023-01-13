@@ -1,0 +1,84 @@
+nav ul li a:hover{
+    font-weight: bold;
+    font-size: 2.1em;
+}
+
+nav ul li:hover ul{
+    display: block;
+    width: 99.2vw;
+}
+nav ul li ul li a:hover{
+    background: #202525;
+    color: #e6e7e7;
+}
+
+a:hover p{
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.2s;
+    line-height: 8vh;
+}
+a:hover img{
+    height: 55vh;
+    transition: 0.2s;
+}
+
+.athena a:hover img{
+    height: 58vh;
+    transition: 0.2s;
+}
+.zeus a:hover img{
+    height: 58vh;
+    transition: 0.2s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .scroller {
+        grid-auto-columns: 80%;
+        height: 40vh;
+    }
+    .god {
+        height: 38vh;
+    }
+    .god a img {
+        height: 25vh;
+/*    border: 2px solid limegreen;*/    
+    }
+    .athena a:hover img{
+        height: 30vh;
+        transition: 0.2s;
+    }
+    .zeus a:hover img{
+        height: 28vh;
+        transition: 0.2s;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .scroller {
+        grid-auto-columns: 57%;
+    }
+    
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .scroller {
+        grid-auto-columns: 46%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .scroller {
+        grid-auto-columns: 37%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .scroller {
+        grid-auto-columns: 27%;
+    }
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: #101010;
+    color: #e6e7e7;
+}
+
+a{
+    color: #e6e7e7;
+    font-family: Times, serif;
+    text-decoration: none;
+}
+header{
+    background-color: #101010;
+    color: #e6e7e7;
+}
+
+header h1 {
+    font-size: 5em;
+    font-family: Olympus, Arial, sans-serif;
+}
+header h2{
+    font-family: Olympus;
+    font-weight:100;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    font-family: Olympus, Arial, sans-serif;
+    font-size: 2em;
+}
+
+nav ul li ul a{
+    color: #202525;
+}
+
+nav ul li ul {
+    background-color: #e6e7e7;
+    border: solid 2px #e6e7e7;
+}
+
+::-webkit-scrollbar{
+    height: 15px;
+    width: 0.5vw;
+}
+::-webkit-scrollbar-track{
+    background: #202525;
+}
+::-webkit-scrollbar-thumb{
+    background: #e6e7e7;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: lightgrey;
+}
+
+.scroller{
+    padding: 50px;
+    background-color: #101010;
+}
+
+.god {
+    background-color: #202525;
+    border-radius: 50px;
+    border: 2px solid #808080;
+}

@@ -1,0 +1,76 @@
+.image{
+    height: 100vh;
+    width: 28vw;
+    position: fixed;
+    top: 15em;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+.athena{
+    top: 10em;
+}
+main img {
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    position: fixed;
+    width: 100vw;
+}
+section{
+    position: absolute;
+    top: 16em;
+    right: 2em;
+    padding: 2em;
+    width: 65vw;
+    border-radius: 10px;
+    z-index: -1;
+    background-color: #202525;
+    color: #e6e7e7;
+    border-radius: 20px;
+    border: 2px solid grey;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+section h1{
+    font-size: 4em;
+    text-align: right;
+}
+
+section h2{
+    font-size: 2em;
+    text-align: right;
+}
+
+section h3{
+    font-size: 2em;
+    padding: 0.5em 0 0.5em 0;
+}
+section h4{
+    text-align: right;
+    padding: 0.2em 0 0.2em 0;
+}
+section h5{
+    text-align: center;
+    padding-top: 4em;
+    font-family: Olympus, Arial, sans-serif;
+}
+section h5 a{
+    font-family: Olympus, Arial, sans-serif;
+    text-decoration: underline;
+}
+section p{
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+@media only screen and (max-width: 710px) {
+    section{
+        top: 22em;
+    }
+    .image{
+        top: 22em;
+    }
+    
+}
